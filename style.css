@@ -1,0 +1,245 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: black;
+font-size: 22px;
+color: seashell;
+opacity: 0.9;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	
+}
+
+h2  {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4, h5 {
+	font-size: 0.9rem;
+}
+
+#om  {
+	font-size: 1.8rem;
+}
+
+.mtext > h2 {
+	margin: 1rem 0 rem;
+}
+
+
+/* ---------------------------------------------------- header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	flex-flow: row wrap;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	z-index: 1;
+	
+}
+
+header .logo {
+	height: 50px;
+	width: auto;
+	padding-left: 1.5rem;
+}
+
+nav{
+	padding-right: 1.5rem;
+}
+
+nav > a {
+	padding-right: .2rem;
+}
+
+/* -------------------------------------------------------- hero */
+.hero {
+ 	background: url("img-mission-background.jpg");
+ 	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 70px;
+ }
+
+ #om {
+ 	padding-top: .7rem;
+ 	
+ }
+
+ .hacf {
+ 	padding-bottom: 1.1rem;
+ 	
+ }
+
+ .hero, h2, h4 {
+ 	width: 100%;
+ }
+
+ /*----------------------------------------------------------- tmonth */
+ .tmonth {
+ 	width: 1000px;
+ 	margin: 0.6rem auto;
+ 	width: 100%;
+ 	margin-bottom: 1.1rem;
+
+ }
+
+ .tmonth_img {
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	justify-content: center;
+ 	width: 75%;
+ 	margin: auto;
+
+ }
+
+ .tmonth_img img {
+ 	width: 340px;
+ 	margin: 10px;
+	
+ }
+
+ .tmonth #mtext {
+ 	display: block;
+ 	margin-bottom: 0.5rem;
+ }
+
+ img + h4 {
+ 	margin-top: -.4rem;
+ }
+
+ /*----------------------------------------------------- direcciones */
+#direcciones {
+	background: url("img-locations-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 500px;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: -.2rem;
+}
+
+/*		border: 1px solid red;		*/
+
+.adress {
+	display: flex;
+	justify-content: center;
+	margin: auto 0;
+}
+
+.titdirecciones {
+	display: flex;
+	margin-top: 70px;
+}
+
+.center {
+background-color: transparent;
+border: 1px solid red;
+}
+
+
+.adress {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+background-color: transparent;
+margin-bottom: 5rem;
+}
+
+.adress div {
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin: 15px 20px;
+}
+
+/*------------------------------------------------- contact*/
+.contact {
+	height: 200px;
+	line-height: 3;
+}
+
+footer h5 {
+	text-align: left;
+	font-size: 12px;
+	margin-top: 1.2rem;
+}
+
+/*--------------------------------------------------- @mediaq*/
+@media (max-width: 560px) {
+	header {
+		height: 100px;
+		margin: 0;
+	}
+
+	body {
+		margin: .3rem;
+	}
+
+	header .logo {
+		margin-top: .5rem;
+		padding-left: 0;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
